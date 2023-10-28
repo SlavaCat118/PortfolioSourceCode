@@ -1,0 +1,22 @@
+{
+    "1": {
+        "iD": "1",
+        "name": "Gross",
+        "color": "#dff44d"
+    },
+    "0": {
+        "iD": "0",
+        "name": "Not Gross",
+        "color": "#0000a0"
+    },
+    "2": {
+        "iD": "2",
+        "name": "Juliet Smells",
+        "color": "#ff80c0"
+    },
+    "3": {
+        "iD": "3",
+        "name": "Cool",
+        "color": "#d2cfaa"
+    }
+}

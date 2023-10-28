@@ -1,0 +1,32 @@
+{
+    "0": {
+        "iD": "0",
+        "name": "Brown",
+        "color": "#533600"
+    },
+    "1": {
+        "iD": "1",
+        "name": "Mint Green",
+        "color": "#b3ffc0"
+    },
+    "2": {
+        "iD": "2",
+        "name": "Solid Blue",
+        "color": "#488cdf"
+    },
+    "3": {
+        "iD": "3",
+        "name": "Dead Purple",
+        "color": "#7a5f9c"
+    },
+    "4": {
+        "iD": "4",
+        "name": "Black",
+        "color": "#000000"
+    },
+    "5": {
+        "iD": "5",
+        "name": "White",
+        "color": "#ffffff"
+    }
+}

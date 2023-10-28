@@ -1,0 +1,22 @@
+{
+    "0": {
+        "iD": "0",
+        "name": "light brown",
+        "color": "#937313"
+    },
+    "1": {
+        "iD": "1",
+        "name": "dark brown",
+        "color": "#734400"
+    },
+    "2": {
+        "iD": "2",
+        "name": "lime green",
+        "color": "#6af567"
+    },
+    "3": {
+        "iD": "3",
+        "name": "soft blue",
+        "color": "#6574f8"
+    }
+}
