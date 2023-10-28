@@ -1,0 +1,38 @@
+Bilateral Guide Fun | March/04/2023 20:15:51
+gmic example.png +lorem 250,250 repeat 5 +bilateral. [0],10,10 done
+
+fancy_checkers | March/06/2023 18:39:47
+gmic input 255,255,1,3,"xor(x,y)%16<(x+y)/30?[ 255,0,0 ]:[ 255,255,255 ]"
+
+Modulo Madness | March/08/2023 20:09:25
+gmic 255,255,127,3,"[ xor(x,y)%(z+1) ]"
+
+Graphicify Image | March/13/2023 15:13:31
+gmic +lorem 250,250 +edges 15% 40,40 gaussian. 10,4 spread. 10,0 +brushify[0] [-1],1 blur. 1,1 rm.. to_rgb.. +image.. [-1],0,0,0,0,1,[-2]
+
+Channel XOR
+ | March/24/2023 09:53:00
+gmic 300,300,1,2 turbulence 100,9,4,2,1 [0],[0],1,1 fill. 'xor(i(#-2,x,y,0,0),i(#-2,x,y,0,1))'
+
+closeout | April/04/2023 16:25:56
+gmic 300,300,100,1,"sin(y)+cos(x)>z/50?255:0"
+
+qualitative sin | April/05/2023 16:15:04
+gmic 200,200,1,1,"sin(x*y)>x/200"
+
+bg_filter | May/11/2023 18:19:13
+stained_glass 10%,0.5 +norm. +ge. 1% +pixelsort[0] +,y,[1],[2] +blur[-1] 5,0 +add[-2] [-1]
+
+grid circles? | May/12/2023 15:36:23
+300,300,1,1,"(x*y)==0?a=10:a=(x*y); (for(n=1, a%n==0 && n<100, ++n); n)"
+
+fibo spire | June/02/2023 22:24:07
+gmic 1000,1000,1,1,"sinc(rol(y&x+y&fibo(0.1*(x-(y-100)))))"
+
+Unnamed Entry | June/03/2023 14:36:17
+gmic 200,200,1,1,"sin(atan2(fibo(sign(e)+x>x)^fibo(72==y*log10(gauss(x))&&acos(x)^y&ror(-36>=x)),g*y<abs(deg2rad(cut(gamma(floor(pi)),x||u!=g||atan(round(int(-44>y),tanh(log10(y^u))<=-21<prod(x)!=-40^log(cosh(ceil(erfinv(-19-atan2(y,log(deg2rad(abs(pi)*x*x))))<=x<sqrt(v)))&sum(pi>=y)*sinc(x||tan(x)&sign(pi)>x<=37*x!=med(x>=59*x)<deg2rad(y)*v)<=u)<y))||avg(acos(x),y)!=abs(v),ceil(cut(e,u,med(y,-84)))))))*x)"
+
+gmic 200,200,1,1,"-46|y^xor(pi,ceil(sinh(asin(log10(x)))>prod(u,-89)))"
+
+man | June/09/2023 16:57:46
+(bool((e>u))&&((floor(exp(cbrt((((sinc(84)|-12)+(sum(y,u)|((60|y)>=y)))==(((y/u)|((60|y)>=y))>(x/u))))))<=sqrt(((x^int(((y/sin(ceil((x==round(13,sign(y))))))+y)))||(((y/sin(ceil(avg(x,round(-5,y)))))+y)&gcd(sinh(sign((4^(((85+((int((acos((97/(avg(abs(-25),(((y&&med((g>atan2(50,int(41))),asin(log((pi-y)))))!=erf(y))/cut(gamma(((62*e)*(x||(((pi<=(2-v))*exp(cosh((fact(g)!=(86==-58)))))>=x)))),77,76)))&&44)))+g))<=3)/-24))^x)==((((-35!=med(42,48))>=x)<sign(med(91,(-81||y))))<=(erfinv(erf(e))||(11*-68))))))),erfinv(u))))))>=gauss(gauss((y|fact(-88))))))

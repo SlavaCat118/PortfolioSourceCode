@@ -1,0 +1,20 @@
+
+
+sampling other images | March/24/2023 09:57:47
+When in a math expression, use the following syntax to get the pixel value at given coordinates:
+
+	i(#<image_index>,x,y,z,c,interpolation_type,boundary_conditions)
+
+If we want to get the pixel value at (100,50) of image 2:
+	i(#2,100,50)
+
+Getting values of an image | April/02/2023 08:50:48
+By using:
+	{is#2}
+
+You get the sum of the image at second index
+
+naming command values | April/02/2023 16:31:11
+Alright, if you want to name the arguments of your custom functions, use this:
+	some_name=$1
+This aliases the first argument with the name "some_name"

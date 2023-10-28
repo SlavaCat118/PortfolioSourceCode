@@ -1,0 +1,10 @@
+
+
+sign_function | June/21/2023 11:18:39
+def sign(val):
+	if val == 0:
+		return 1
+	sign_val = val/abs(val)
+	if type(val) != float:
+		return round(sign_val)
+	return val/abs(val)

@@ -1,0 +1,7 @@
+
+
+zooming julia | May/14/2023 15:53:51
+gmic zoom=1 264,164,1,1 mx=0 my=0 do  zoom*=1.01 mx+=({*0,x}-(w/2))/(10*$zoom*w) my+=({*0,y}-(h/2))/(10*$zoom*h) f. "max_iter=100;cx=-1;cy=-0.27815;wf=0.5*$zoom*w;hf=0.5*$zoom*h;zx=(1.5*(x-(w/2))/wf)+$mx;zy=((y-(h/2))/hf)+$my;for(i=max_iter,(zx*zx)+(zy*zy)<4 && i>1, tmp=(zx*zx)-(zy*zy)+cx;zy=(2*zx*zy)+cy;zx=tmp;i-=1);i" window. wait 50 while {*} rm
+
+reaper icons | October/22/2023 18:43:07
+gmic tukan_denoise.png to_rgb. +mul. 0.75 blur. 10  text. "DeNoiser",0%,50%,25,1,255 +zoom. 0.75 d0

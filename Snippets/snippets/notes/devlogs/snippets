@@ -1,0 +1,17 @@
+
+
+FINISHED! | March/22/2023 17:59:35
+After three quarters of a year since snippets was conceived, a half decent version has been completed :)
+
+During this project, I did a lot of things: Lexing and Parsing found in the lexicon_and_parsilos.py file, made an auto-cli for future projects (just my own custom argparser), and completed my first full project documentation!
+
+Things I would do differently next time around:
+- Make the parser for modular, and by, flexible.
+
+Future plans:
+- Auto-generation of the command table files from class objects
+- Macros
+- Testing
+
+Bug | March/22/2023 18:09:50
+I found a bug... comments are still broken. That is tomorrows problem, I have spent over 12 hours on this project over the last 3 days; it's time for some Shattered Pixel Dungeon.
